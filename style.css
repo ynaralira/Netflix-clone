@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-image: url(fundo-login.png);
+    background-color: rgb(24, 24, 24);
+    background-size: cover;
+    background-repeat: none;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#img-logo{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 220px;
+    
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    Transform: translate(100%,5%);
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px; 
+    width: 450px;
+    height: 660px;
+    
+}
+
+h1{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    right: 110px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+ input{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 314px;
+    height: 50px;
+ }
+ #lembrese{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    right: 70px;
+    color: white;
+ }
+ #checkbox{
+    display: flex;
+    position: relative;
+    right: 148px;
+    width: 15px;
+ }
+
+ #ajuda{
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+    color: white;
+    font-style: none;
+    text-decoration: none;
+ }
+
+ #button{
+    position: relative;
+    bottom: 100px;
+    color: white;
+    background-color: #e50914;
+    border: black solid 1px;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 314px;
+    height: 50px;
+    margin-top: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+ }
